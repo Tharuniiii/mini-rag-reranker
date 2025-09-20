@@ -52,5 +52,7 @@ mini-rag-reranker/
 ├── app.py                # Streamlit frontend
 ├── requirements.txt
 └── README.md
-
-
+```
+# Screenshots
+<img width="1735" height="947" alt="Screenshot 2025-09-20 220639" src="https://github.com/user-attachments/assets/7d004545-abc4-4113-9786-6373f20174df" />
+<img width="959" height="818" alt="Screenshot 2025-09-20 220412" src="https://github.com/user-attachments/assets/0dedfc70-f0df-4ad0-98ef-a0379cffb6cb" />
