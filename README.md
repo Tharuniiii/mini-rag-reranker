@@ -2,6 +2,7 @@
 
 # 🚀 How to Run (CPU-only)
 1️⃣ Setup
+```
 git clone https://github.com/Tharuniiii/mini-rag-reranker.git
 cd mini-rag-reranker
 python -m venv .venv
@@ -10,16 +11,16 @@ python -m venv .venv
 # On Mac/Linux:
 source .venv/bin/activate
 pip install -r requirements.txt
-
+```
 2️⃣ Prepare Data
 
 Place your 20-PDFs in data/pdfs. Run:
-python src/index_pdfs.py
+```python src/index_pdfs.py```
 
 3️⃣ Test Baseline + Reranker
 
 Interactive test:
-python src/test_reranker.py
+```python src/test_reranker.py```
 
 Then enter queries like:
 diagnostic coverage DC value determination  
@@ -28,14 +29,15 @@ requirements for category 2 safety systems
 4️⃣ Evaluate
 
 Run evaluation on your source list:
-python src/evaluate.py data/sources.json --metrics
+```python src/evaluate.py data/sources.json --metrics```
 
 5️⃣ Frontend (Optional)
 
 To launch a simple UI using Streamlit:
-streamlit run app.py
+```streamlit run app.py```
 
 # 📂 Project Structure
+```
 mini-rag-reranker/
 │
 ├── data/
